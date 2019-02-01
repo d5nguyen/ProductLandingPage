@@ -2,24 +2,59 @@
     <head>
         <title>Cheese Wizard Product Landing Page</title>
         <link rel="stylesheet" href="product.css">
+        <link rel="stylesheet" href="grid.css">
+        <script type="text/jscript" src="product.js"></script>
     </head>
-        
-        <header id="header"> 
-            <nav id="nav-bar">
-                <div class="row">
-                <img id="header-img" src="cheese2.jpeg" alt="Radiant Cheese">
-                <h1>Cheese Wizard</h1>
+    <body>
+        <header id="header" >
+            <section id="Main"></section>
+            <nav class="sticky" id="nav-bar">
+                <div class="row">    
+                <h1>Cheese Corner Est. 1974</h1>    
                 <ul id="main-nav">
-                    <li><a class="nav-link" href="#About">About</a></li>
+                    <li><a class="nav-link" href="#Main">Main</a></li>
                     <li><a class="nav-link" href="#Our-Selection">Our Selection</a></li>
                     <li><a class="nav-link" href="#Reviews">Reviews</a></li>
+                    <li><a class="nav-link" href="#About">About</a></li>
                     <li><a class="nav-link" href="#Promotional-Video">Promotional Video</a></li>
-                    <li><a class="nav-link" href="#Contact-Us">Contact Us</a></li>
+                    <li><a class="nav-link" href="#Contact-Us">Contact</a></li>
                 </ul>
-                </div>    
+                </div>   
             </nav>
+            <img id="header-img" src="cheese2.jpeg" alt="Radiant Cheese">
         </header>   
-            <body>
+        
+        
+<!---- Main---->         
+                        
+<!---- Our Selection ---->         
+                <section id="Our-Selection">
+                    <div class="row">
+                        <h2>Our Selection</h2>
+                           <div class="col span-1-of-3">
+                               <h2>Local</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                </p>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <h2>Local</h2>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            </p>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <h2>Local</h2>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            </p>
+                        </div>
+                        
+                    </div>
+                </section>
+  
+
+<!---- About ----> 
                 <section id="About">
                     <div class="row">
                         <h2>About</h2>
@@ -27,14 +62,7 @@
                     </div>
                 </section> 
                 
-                <section id="Our-Selection">
-                    <div class="row">
-                        <h2>Our Selection</h2>
-                            <div></div>
-                        
-                        
-                    </div>
-                </section>
+<!---- Reviews---->                
                 
                 <section id="Reviews">
                     <div class="row">
@@ -63,17 +91,15 @@
 
                 </section>
 
-                    
-                    
-                </section>
+<!---- Promotional Video ----> 
                
                 <section id="Promotional-Video">
-                    <div class="row">
+                    <div class="row" >
                     <h2>Promotional Video</h2>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/RLhmG-LIwnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RLhmG-LIwnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </section>
-                
+<!---- Contact Us ----> 
                 <section id="Contact-Us">
                     <div class="row">
                     <h2>Contact Us</h2>
@@ -83,7 +109,7 @@
                      </form> 
                     </div>
                 </section>
-                <script type="text/jscript" src=""></script>    
+                   
             </body>
     
 </html>
