@@ -1,13 +1,16 @@
 html {
     scroll-behavior: smooth;
 }
+
+
 header {
-    display: flex;
-    background-image: url(Images/cheesebkgrd1.jpg); 
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(Images/cheesebkgrd1.jpg); 
     background-size: cover;
     background-position: center;
     height: 110vh;
-    filter: grayscale(30%);
+
     background-attachment: fixed;
 }
 
@@ -23,6 +26,15 @@ header {
     display: inline-block;
     margin-left: 40px;
     
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
 }
 
 a {
@@ -57,11 +69,4 @@ section {
 
 
 /*-------Sticky Navigation -------*/
-.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background-color: white;
-}
+
