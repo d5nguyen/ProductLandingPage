@@ -3,10 +3,10 @@ html {
 }
 header {
     display: flex;
-    background-image: url(cheesebkgrd1.jpg); 
+    background-image: url(Images/cheesebkgrd1.jpg); 
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 110vh;
     filter: grayscale(30%);
     background-attachment: fixed;
 }
@@ -53,7 +53,6 @@ section {
     display: block;
     padding: 5% 0;
 }
-
 
 
 
