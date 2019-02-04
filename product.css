@@ -26,7 +26,7 @@ header {
     left: -20px
 }
 #main-nav {
-    text-align: center;
+/*    text-align: center;*/
     display: block;
     margin: 0;
 }
@@ -121,7 +121,7 @@ ion-icon {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 70vh;
     background-attachment: fixed;
 }
 
